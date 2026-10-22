@@ -139,8 +139,6 @@ OPENAI_API_KEY=your_openai_api_key
 PORT=3000
 ```
 
-**Important configuration step:** The checked-in `backend/src/app.module.ts` currently contains a hard-coded MongoDB connection string. Replace it with `process.env.MONGODB_URI` (ideally using NestJS configuration management), rotate the exposed database credentials, and ensure the backend loads your `.env` file. The current `backend/src/main.ts` explicitly listens on port `3000`; the `PORT` variable will not override this until the bootstrap code is updated.
-
 Then run:
 
 ```bash
