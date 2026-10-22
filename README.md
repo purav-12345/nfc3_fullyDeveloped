@@ -120,7 +120,7 @@ nfc3_fullyDeveloped/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/mansidhamne/nfc3_fullyDeveloped.git
+git clone https://github.com/purav-12345/nfc3_fullyDeveloped.git
 cd nfc3_fullyDeveloped
 ```
 
@@ -253,27 +253,9 @@ Before deploying or sharing a public demonstration:
 4. Migrate the AI integrations to supported APIs/models and add appropriate error handling and request limits.
 5. Configure safe CORS origins and validate third-party integration permissions before production deployment.
 
-## 🗺️ Roadmap
-
-Potential next steps (not claims about existing functionality):
-
-- [ ] Centralize and validate environment configuration
-- [ ] Resolve the frontend/backend port conflict and API base URL configuration
-- [ ] Upgrade AI integrations to supported models and endpoints
-- [ ] Add API documentation (for example, OpenAPI/Swagger)
-- [ ] Add unit and integration tests for core academic workflows
-- [ ] Document and evaluate the `ml/` pipeline
-- [ ] Add actual product screenshots and a short demo recording
-- [ ] Set up deployment instructions and CI checks
-
 ## 🤝 Contributing
 
 Issues and pull requests are welcome. For changes, describe the problem, explain the proposed behavior, and include relevant test steps. Avoid committing secrets, credentials or private student information.
-
-## 📄 License
-
-No root-level license file was visible in the inspected repository listing. Unless a license is added, do not assume that the code is open-source licensed for reuse. Contact the repository owner for reuse permissions.
-
 ---
 
 <div align="center">
