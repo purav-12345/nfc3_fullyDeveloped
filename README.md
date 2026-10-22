@@ -161,8 +161,6 @@ npm run dev
 
 Frontend default: `http://localhost:3000`
 
-⚠️ **Port conflict:** The checked-in backend and the default Next.js development server both use port **3000**. Until this is corrected in the application configuration, start the frontend on another port:
-
 ```bash
 npm run dev -- -p 3001
 ```
@@ -206,7 +204,6 @@ curl -X POST http://localhost:3000/study-gpt/suggestions \
 
 ## 🖼️ Application Preview
 
-Add real screenshots of the running application under `docs/screenshots/` and uncomment these lines after the images exist:
 
 <!--
 | Landing Page | Dashboard |
